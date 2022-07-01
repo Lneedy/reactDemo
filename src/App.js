@@ -29,7 +29,7 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <h1>Hi, Travis Ci</h1>
+        <h1>Hi, Travis Ci Test</h1>
         <ThemeContext.Provider value ={this.state.theme}>
           <Toolbar changeTheme={this.toggleTheme} />
         </ThemeContext.Provider>
