@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-	- 14
+ - 14
 install:
-	- npm
+ - npm
 script:
-  - npm run test
+ - npm run test
 notifications:
-  webhooks: https://oapi.dingtalk.com/robot/send?access_token=34745dba7469b3811a17e20aa343d539d557d2ce671faab0895d73a6914c1a16
+ webhooks: https://oapi.dingtalk.com/robot/send?access_token=34745dba7469b3811a17e20aa343d539d557d2ce671faab0895d73a6914c1a16
