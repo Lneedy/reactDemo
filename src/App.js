@@ -29,7 +29,11 @@ class App extends React.Component {
   render () {
     return (
       <div>
+<<<<<<< Updated upstream
         <h1>Hi, Travis Ci</h1>
+=======
+        <h1>Hi, Travis Ci Testc</h1>
+>>>>>>> Stashed changes
         <ThemeContext.Provider value ={this.state.theme}>
           <Toolbar changeTheme={this.toggleTheme} />
         </ThemeContext.Provider>
